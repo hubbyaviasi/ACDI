@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071b38">
+<meta name="description" content="ACDI Academy — pelatihan dan persiapan karier bidang aviasi dan transportasi.">
+<title>ACDI Academy | Pendaftaran Program Aviasi</title>
+<style>
+:root{--navy:#071b38;--blue:#123d72;--red:#d92d3a;--ink:#15243a;--muted:#64748b;--pale:#f3f6fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(7,27,56,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid #ffffff20}
+nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.04em}.brand-mark{width:40px;height:40px;border:2px solid #fff;border-radius:13px;display:grid;place-items:center;font-weight:900;color:#fff;position:relative}.brand-mark:after{content:"";position:absolute;width:18px;height:4px;background:var(--red);transform:rotate(-22deg);right:-4px;top:8px;border-radius:5px}.brand small{display:block;font-size:10px;letter-spacing:.18em;color:#c8d6e8;font-weight:500}.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;color:#e3ebf6}.navlinks a:hover{color:#fff}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:13px 22px;font-weight:750;cursor:pointer;transition:.2s}.btn-red{background:var(--red);color:#fff;box-shadow:0 8px 22px #d92d3a35}.btn-red:hover{transform:translateY(-2px);background:#bf2330}.btn-outline{border:1px solid #ffffff80;color:#fff}
+.hero{background:radial-gradient(circle at 85% 20%,#24558a 0,transparent 32%),linear-gradient(120deg,#06172f,#0d3260);color:#fff;padding:88px 0 82px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#f5a4aa;font-weight:800}.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.08;letter-spacing:-.04em;margin:18px 0}.hero p{max-width:590px;color:#d5e0ef;font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero-card{border:1px solid #ffffff30;background:#ffffff12;border-radius:26px;padding:28px;box-shadow:0 24px 60px #0003}.hero-card .big{font-size:48px;font-weight:900;line-height:1;color:#fff}.hero-card p{font-size:14px;margin:12px 0 0}.hero-tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}.tag{border:1px solid #ffffff35;padding:7px 12px;border-radius:99px;font-size:12px;color:#e7eff9}
+section{padding:76px 0}.section-head{text-align:center;max-width:690px;margin:0 auto 38px}.section-head .eyebrow{color:var(--red)}h2{font-size:clamp(28px,3.5vw,40px);line-height:1.15;letter-spacing:-.03em;margin:10px 0 14px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+.programs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.program{border:1px solid #e3eaf3;border-radius:20px;padding:23px;background:#fff;box-shadow:0 10px 30px #102d5010}.program .num{width:38px;height:38px;border-radius:12px;background:#edf3fb;color:var(--blue);display:grid;place-items:center;font-weight:900}.program h3{font-size:18px;line-height:1.25;color:var(--navy);margin:18px 0 9px}.program p{font-size:14px;color:var(--muted);margin:0}
+.about{background:var(--pale)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about-panel{background:linear-gradient(145deg,#0b2850,#174b80);color:#fff;border-radius:26px;padding:34px}.about-panel h3{font-size:25px;margin:0 0 12px}.about-panel p{color:#d7e4f3}.checks{display:grid;gap:13px;margin-top:24px}.check{display:flex;gap:12px;align-items:flex-start}.check b{color:#fff}.check span{color:#d6e2f0;font-size:14px}.check i{font-style:normal;color:#ff8e98;font-weight:900}
+.requirements{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.req{padding:22px;border-radius:18px;background:#f5f7fb;border:1px solid #e8edf5}.req b{display:block;color:var(--navy);margin-bottom:6px}.req span{font-size:14px;color:var(--muted)}
+.register{background:linear-gradient(180deg,#f4f7fb,#fff)}.form-shell{max-width:900px;margin:auto;background:#fff;border:1px solid #e1e8f1;border-radius:24px;padding:18px;box-shadow:0 18px 50px #0b285012}.form-shell iframe{display:block;width:100%;min-height:780px;border:0;border-radius:14px}.form-note{text-align:center;color:var(--muted);font-size:13px;margin:14px 0 0}
+.contact{background:var(--navy);color:#fff;text-align:center;padding:60px 0}.contact h2{color:#fff}.contact p{color:#cbd8e8}.contact .btn{margin-top:12px}
+footer{background:#041226;color:#9eafc5;padding:22px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:850px){.hero-grid,.about-grid{grid-template-columns:1fr}.programs{grid-template-columns:repeat(2,1fr)}.navlinks{gap:12px}.navlinks a:not(.btn){display:none}.hero{padding:64px 0}}
+@media(max-width:520px){nav{min-height:62px}.navlinks .btn{padding:10px 14px;font-size:12px}.programs,.requirements{grid-template-columns:1fr}.hero-card{padding:23px}.hero p{font-size:15px}section{padding:58px 0}.form-shell{padding:8px}.form-shell iframe{min-height:850px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#beranda"><span class="brand-mark">A</span><span>ACDI ACADEMY<small>CREATIVE DIGITAL INDONESIA</small></span></a>
+<div class="navlinks"><a href="#program">Program</a><a href="#tentang">Tentang</a><a href="#persyaratan">Persyaratan</a><a class="btn btn-red" href="#daftar">Daftar Sekarang</a></div>
+</nav></div></header>
+<main>
+<section class="hero" id="beranda"><div class="wrap hero-grid">
+<div><div class="eyebrow">Pendidikan • Pelatihan • Persiapan Karier</div><h1>Mulai langkahmu menuju <span style="color:#ff929b">karier profesional.</span></h1>
+<p>Kenali program pelatihan ACDI Academy di bidang aviasi dan layanan transportasi. Bangun keterampilan, kepercayaan diri, dan kesiapan menghadapi proses rekrutmen.</p>
+<div class="hero-actions"><a class="btn btn-red" href="#daftar">Isi Formulir Pendaftaran</a><a class="btn btn-outline" href="https://wa.me/6289626580006?text=Halo%20ACDI%2C%20Saya%20mau%20konsultasi%20program%20pelatihan" target="_blank" rel="noopener">Konsultasi WhatsApp</a></div>
+</div>
+<div class="hero-card"><div class="eyebrow">ACDI AVIASI</div><div class="big">Your<br>Career<br>Starts Here.</div><p>Persiapkan dirimu untuk dunia kerja dengan program pelatihan yang sesuai minat dan tujuan kariermu.</p><div class="hero-tags"><span class="tag">Pramugari/a</span><span class="tag">Pramugari KAI</span><span class="tag">Staf Bandara</span></div></div>
+</div></section>
+<section id="program"><div class="wrap"><div class="section-head"><div class="eyebrow">Pilihan Program</div><h2>Temukan program yang sesuai dengan tujuanmu</h2><p>Pilih bidang yang ingin kamu pelajari dan konsultasikan langkah persiapannya bersama tim ACDI.</p></div>
+<div class="programs">
+<article class="program"><div class="num">01</div><h3>Pramugari/a Pesawat</h3><p>Program pelatihan dan persiapan karier untuk bidang awak kabin penerbangan.</p></article>
+<article class="program"><div class="num">02</div><h3>Pramugari KAI</h3><p>Persiapan keterampilan pelayanan dan karier di layanan kereta api.</p></article>
+<article class="program"><div class="num">03</div><h3>Staf Pelayanan Bandara</h3><p>Pengenalan kompetensi pelayanan penumpang dan lingkungan operasional bandara.</p></article>
+<article class="program"><div class="num">04</div><h3>Bahasa Jerman</h3><p>Persiapan bahasa Jerman untuk jalur program Ausbildung.</p></article>
+</div></div></section>
+<section class="about" id="tentang"><div class="wrap about-grid">
+<div><div class="eyebrow">Tentang ACDI</div><h2>Persiapan yang terarah untuk langkah karier berikutnya.</h2><p style="color:var(--muted)">ACDI Academy menyediakan pilihan program pelatihan yang membantu peserta mengenal bidang karier, membangun keterampilan, dan mempersiapkan diri menghadapi proses seleksi kerja.</p><a class="btn btn-red" href="#daftar">Mulai Pendaftaran</a></div>
+<div class="about-panel"><h3>Kenapa memulai dari persiapan?</h3><p>Memahami bidang yang dituju dan mempersiapkan kompetensi sejak awal dapat membantu kamu melangkah dengan lebih percaya diri.</p><div class="checks"><div class="check"><i>✓</i><span><b>Pilihan bidang beragam</b><br>Sesuaikan program dengan minat karier.</span></div><div class="check"><i>✓</i><span><b>Konsultasi program</b><br>Tanyakan informasi sebelum mendaftar.</span></div><div class="check"><i>✓</i><span><b>Formulir online</b><br>Isi data awal dengan mudah melalui Tally.</span></div></div></div>
+</div></section>
+<section id="persyaratan"><div class="wrap"><div class="section-head"><div class="eyebrow">Langkah Pendaftaran</div><h2>Mulai dengan mengisi formulir</h2><p>Lengkapi informasi diri dan pilih program yang ingin kamu konsultasikan.</p></div>
+<div class="requirements"><div class="req"><b>1. Isi data diri</b><span>Masukkan informasi sesuai kondisi dan dokumen yang kamu miliki.</span></div><div class="req"><b>2. Pilih program</b><span>Tentukan bidang pelatihan yang paling sesuai dengan minatmu.</span></div><div class="req"><b>3. Tunggu tindak lanjut</b><span>Tim ACDI dapat menghubungi kamu melalui kontak yang dicantumkan.</span></div></div></div></section>
+<section class="register" id="daftar"><div class="wrap"><div class="section-head"><div class="eyebrow">Pendaftaran Online</div><h2>Daftar Program ACDI</h2><p>Isi formulir berikut untuk menyampaikan minat dan data pendaftaranmu.</p></div>
+<div class="form-shell"><iframe src="https://tally.so/r/PRD655?transparentBackground=1" title="Formulir Pendaftaran ACDI" loading="lazy" allow="camera; microphone; autoplay; encrypted-media;"></iframe><p class="form-note">Jika formulir tidak tampil, <a href="https://tally.so/r/PRD655" target="_blank" rel="noopener" style="color:#174b80;text-decoration:underline">buka formulir Tally di tab baru</a>.</p></div></div></section>
+<section class="contact"><div class="wrap"><div class="eyebrow">Butuh Informasi?</div><h2>Konsultasikan program pilihanmu.</h2><p>Hubungi tim ACDI untuk mendapatkan informasi lebih lanjut.</p><a class="btn btn-red" href="https://wa.me/6289626580006?text=Halo%20ACDI%2C%20Saya%20mau%20konsultasi%20program%20pelatihan" target="_blank" rel="noopener">Chat WhatsApp ACDI</a></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> ACDI Academy. All rights reserved.</span><span>ACDI Aviasi • Pendidikan dan Persiapan Karier</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

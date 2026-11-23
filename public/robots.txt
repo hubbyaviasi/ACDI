@@ -1,4 +1,1 @@
-User-agent: *
-Allow: /
-
 Sitemap: https://daftaracdi.my.id/sitemap.xml

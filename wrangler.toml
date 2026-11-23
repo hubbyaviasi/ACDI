@@ -1,5 +1,2 @@
-name = "acdi"
-compatibility_date = "2026-11-23"
-
 [assets]
-directory = "./public"
+directory = "./publik"
